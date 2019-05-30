@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Multi-level heading</title>
+	<style type="text/css">
+	hgroup {
+    text-align: left;
+    font-family: Verdana, sans-serif;
+    padding-left: 16px;
+    border-left: 10px solid #00c8d7;
+	}
+
+	h1 {
+	    font-size: 1.93rem;
+	    margin-bottom: 0;
+	}
+
+	h2 {
+	    font-size: 1.16rem;
+	    margin-top: 0;
+	}
+
+	p {
+	    text-align: justify;
+	    font-family: Georgia, serif;
+	    font-size: .95rem;
+	}
+
+	p::first-letter {
+	    font-size: 3.1rem;
+	    line-height: .7;
+	    float: left;
+	    padding-right: 8px;
+	    padding-top: 4px;
+	   color:red;
+}
+	</style>
+</head>
+<body>
+<!-- 
+	Многоуровневый заголовок - этот тег может перегруппировать несколько заголовков в документе. 
+	Таким образом, ни один из вторичных детей в этой группе не создаст свои собственные разделы.
+-->
+<hgroup>
+    <h1>Calculus I</h1>
+    <h2>Fundamentals</h2>
+</hgroup>
+<p>
+  This course will start with a brief introduction about the limit of a function. Then we will describe how the idea of derivative emerges in the Physics and Geometry fields. After that, we will explain that the key to master calculus is …
+</p>
+</body>
+</html>
